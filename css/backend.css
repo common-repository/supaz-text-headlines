@@ -1,0 +1,164 @@
+
+/*Mega-Heading Settings Page CSS*/
+
+.mh-form-field-wrapper {
+    margin: 0;
+    margin-bottom: 10px;
+    padding:0 20px;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+}
+
+
+
+.mh-form-field {
+    margin-bottom: 30px;
+    position: relative;
+    padding-left: 205px;
+}
+.mh-form-field label {
+    width: 200px;
+    position: absolute;
+    top:3px;
+    left:0;
+}
+
+
+.mh-form-field input[type=text],
+.mh-form-field input[type=url],
+.mh-form-field select{
+    max-width: 320px;
+    width:100%;
+}
+.mh-form-field input[type=number]{
+    width:100px;
+}
+h3.plugin-title {
+    font-size: 30px;
+    margin: 0;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    color: #fff;
+}
+span.plugin-tagline {
+    padding: 30px;
+    color: #fff;
+    margin-top: 10px;
+}
+/*******Tabs**************************************************************************************/
+
+ul.mh-tabs {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    display: inline-block;
+}
+ul.mh-tabs li {
+    background: none;
+    color: #eee;
+    display: inline-block;
+    padding: 12px 15px;
+    cursor: pointer;
+    margin:0;
+    font-size: 16px;
+    text-transform: uppercase;
+    width:100%;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+}
+ul.mh-tabs li:last-child{
+    margin-right:0;
+}
+ul.mh-tabs li.current {
+    background: #777;
+    color: #fff;
+}
+.mh-tab-content {
+    display: none;
+}
+.mh-form-field .wp-picker-container {
+    vertical-align: top;
+}
+body form.mh-setting-form {
+    margin-right: 20px;
+}
+.mh-setting-form-tab-wrap{
+    display: table;
+    width:100%;
+}
+body form.mh-setting-form  ul{
+    width:300px;
+    background: #666;
+}
+body form.mh-setting-form  ul,
+.mh-tab-content.current {
+    display: table-cell;
+    vertical-align: top;
+}
+.mh-tab-content.current {
+    width:-webkit-calc(100% - 300px);
+    width:calc(100% - 300px);
+    background: #fff;
+}
+.mh-form-field-wrapper h4{
+    font-size: 20px;
+    margin:30px 0 50px;
+    display: inline-block;
+}
+.mh-form-field-wrapper.mh-title h4{
+    margin: 30px 0 20px;
+}
+.mh-field-wrap{
+    margin-top: 30px;
+}
+.notice, div.error, div.updated{
+    margin:0;
+    margin-right: 20px;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+    border:0;
+}
+.mh-content{
+    padding: 0 20px 20px;
+}
+.mh-content p{
+    font-size:16px;
+    margin: 0 0 10px;
+}
+/*******End of Tabs*************************/
+@media (max-width: 992px) {
+    .mh-setting-form-tab-wrap{
+        width:100%;
+    }
+    body form.mh-setting-form ul, .mh-tab-content.current {
+        display: block;
+        width: 100%;
+    }
+    .mh-tab-content.current{
+        padding:20px 0;
+    }
+}
+@media (max-width:640px) {
+    .mh-form-field{
+        padding-left: 0;
+    }
+    .mh-form-field label {
+        width: 100%;
+        position: static;
+        display: inline-block;
+        margin-bottom:7px;
+    }
+}
+.mh-settings-header-item {
+    display: inline-block;
+    vertical-align: middle;
+}
+.mh-settings-header {
+    background-color: #0e0e0c;
+        margin-right: 20px;
+}
+.mh-settings-header-item.mh-social-follow {
+    float: right;
+    padding: 29px;
+    color: #fff;
+}
